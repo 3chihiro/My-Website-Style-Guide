@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Poppins&family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     <title>My Website Style Guide</title>
   </head>
   <body>
@@ -44,48 +41,61 @@
       <!-- Fonts Section -->
       <section>
         <h2>Fonts</h2>
-        <div>
-          <p>Noto Sans Japanese</p>
-          <ul>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-          </ul>
-          <p>Roboto</p>
-          <ul>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-          </ul>
-          <p>Poppins</p>
-          <ul>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-            <li>The quick brown fox jumps over the lazy dog.</li>
-          </ul>
-        </div>
+          <div class="fontname" id="noto">
+            <p>Noto Sans Japanese</p>
+            <ul>
+              <li class="regular">The quick brown fox jumps over the lazy dog.</li>
+              <li class="bold">The quick brown fox jumps over the lazy dog.</li>
+              <li class="italic">The quick brown fox jumps over the lazy dog.</li>
+            </ul>
+          </div>
+          <div class="fontname" id="robo">
+            <p>Roboto</p>
+            <ul>
+              <li class="regular">The quick brown fox jumps over the lazy dog.</li>
+              <li class="bold">The quick brown fox jumps over the lazy dog.</li>
+              <li class="italic">The quick brown fox jumps over the lazy dog.</li>
+            </ul>
+          </div>
+          <div class="fontname" id="popp">
+            <p>Poppins</p>
+            <ul>
+              <li class="regular">The quick brown fox jumps over the lazy dog.</li>
+              <li class="bold">The quick brown fox jumps over the lazy dog.</li>
+              <li class="italic">The quick brown fox jumps over the lazy dog.</li>
+            </ul>
+          </div>
       </section>
       <!-- Text Styles Section -->
       <section>
         <h2>Text Styles</h2>
-        <h1>H1: Main page heading</h1>
-        <ul>
-          <li>Font-weight: 700 (bold)</li>
-          <li>Font-size: 26px</li>
-          <li>Font-family: Noto Sans Japanese</li>
-        </ul>
-        <h2>H2: Subheading</h2>
-        <ul>
-          <li>Font-weight: 500</li>
-          <li>Font-size: 18px</li>
-          <li>Font-family: Roboto</li>
-        </ul>
-        <p>P: Paragraph text</p>
-        <ul>
-          <li>Font-weight: 400 (regular)</li>
-          <li>Font-size: 14px</li>
-          <li>Font-family: Poppins</li>
-        </ul>
+        <div class="textstyle">
+          <div class="h1group">
+            <h1>H1: Main page heading</h1>
+            <ul>
+              <li>Font-weight: 700 (bold)</li>
+              <li>Font-size: 26px</li>
+              <li>Font-family: Noto Sans Japanese</li>
+            </ul>
+          </div>
+          <div class="h2group">
+            <h2>H2: Subheading</h2>
+            <ul>
+              <li>Font-weight: 500</li>
+              <li>Font-size: 18px</li>
+              <li>Font-family: Roboto</li>
+            </ul>
+          </div>
+          <div class="pgroup">
+            <p>P: Paragraph text</p>
+            <ul>
+              <li>Font-weight: 400 (regular)</li>
+              <li>Font-size: 14px</li>
+              <li>Font-family: Poppins</li>
+            </ul>
+          </div>
+        </div>
+
       </section>
     </main>
   </body>
