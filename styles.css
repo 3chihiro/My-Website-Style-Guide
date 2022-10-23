@@ -1,0 +1,59 @@
+/* header */
+header h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: left;
+    padding-left: 10px;
+}
+/* main */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;  
+    margin: 20px auto; 
+}
+/* section */
+section {
+    border: 2px solid #20B2AA;
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#crimson {
+    width: 32%;
+    min-height: 100px;
+    background-color: #DC143C;
+    color: #FFFFFF;
+}
+
+#midiumblue {
+    width: 32%;
+    min-height: 100px;
+    background-color: #0000CD; 
+    color: #FFFFFF;
+}
+
+#navajowhite {
+    width: 32%;
+    min-height: 100px;
+    background-color: #FFDEAD; 
+}
+
+#lightseagreen {
+    width: 32%;
+    min-height: 100px;
+    background-color: #20B2AA; 
+}
