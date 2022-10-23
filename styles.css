@@ -4,6 +4,8 @@ body {
     width: 100%;
     max-width: 1920px;
     margin: 0 10%;
+    letter-spacing: 0.1em;
+    line-height: 2;
 }
 
 /* header */
@@ -30,7 +32,7 @@ p {
     font-size: 14px;  
     margin: 20px auto; 
 }
-/* section */
+/* colors section */
 section {
     border: 2px solid #20B2AA;
     width: 70%;
@@ -66,3 +68,85 @@ section {
     width: 32%;
 }
 
+/* fonts section */
+
+.fontname {
+    display: inline-block;
+    margin: 20px auto;
+    width: 45%;
+    min-width: 100px;
+}
+
+#noto {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#noto p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+    text-decoration: underline 2px;
+}
+
+#robo{
+    font-family: 'Roboto', sans-serif;
+}
+
+#robo p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: underline 2px;
+}
+
+#popp{
+    font-family: 'Poppins', sans-serif;
+}
+
+#popp p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: underline 2px;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* text style section */
+
+.h1group h1 {
+    font-family: 'Noto sans JP',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 20px 0px;
+}
+
+.h2group h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.pgroup p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.textstyle ul{
+    list-style: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
